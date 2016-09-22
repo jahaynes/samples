@@ -1,4 +1,9 @@
-{-
+{-  Small Software Transactional Memory (STM) demo
+
+    To find out more, read:
+        http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html
+        https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/beautiful.pdf
+
     compile: ghc -O3 -o ./stm_samples stm_samples.hs -threaded
     run:     stm_samples +RTS -N
 -}
